@@ -1,4 +1,4 @@
-package LacoRepeticao;
+package exercicio3LacoRepeticao;
 import java.util.Scanner;
 public class LacoRepeticaoWhile {
 

@@ -1,4 +1,4 @@
-package ExercicioLaçoCondicionalESwitch;
+package exercicio2CondicionalSwitch;
 
 import java.util.Scanner;
 

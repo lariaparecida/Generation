@@ -1,4 +1,4 @@
-package VetorAndMatriz;
+package exercicio4VetorMatriz;
 import java.util.Scanner;
 public class ExercicioVetor {
 

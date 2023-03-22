@@ -1,4 +1,4 @@
-package VetorAndMatriz;
+package exercicio4VetorMatriz;
 import java.util.Scanner;
 public class ExercicioMatriz {
 	
@@ -31,6 +31,6 @@ public class ExercicioMatriz {
     for (x = 0; x < medias.length; x++) {
         System.out.println("Participante " + (x + 1) + ": " + medias[x]);
     	
-    	}
-	}
-}
+    	}//
+	}//main
+}//class
