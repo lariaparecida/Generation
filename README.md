@@ -1,2 +1,2 @@
 # Generation
-Meus projetos desenvolvidos no bootcamp.
+Meus códigos e exercícios desenvolvidos no bootcamp.
