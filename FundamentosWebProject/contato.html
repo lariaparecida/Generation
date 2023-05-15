@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contato</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class= "body">
+
+   <ul id="menu">
+      <li>
+         <a href="index.html"> Home </a>
+      </li>
+      <li>
+         <a href="contato.html"> Contact </a>
+      </li>
+   </ul>
+
+   <h1 class="center titulo tituloscor">Love <span style="color: #860202;">Witch</span></h1> 
+
+   <div class="container mb-50">
+      <div>
+
+         <h2 class="center ">Speak <span style="color: #860202;">now</span> :</h2>
+
+         <form>
+            <label for="nome">Name:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id='txtEmail'></div>
+            <br>
+
+            <label for="assunto">Subject:</label> <br>
+            <textarea
+            name="assunto"
+            id="assunto"
+            cols="60"
+            rows="5"
+            onkeyup="validaAssunto()">
+            </textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+
+            <button onclick="enviar()" >Send</button>
+
+         </form>
+      </div>
+
+      <div class="ml-50">
+
+         <h2 class="center">Try to <span style="color: #860202;">catch me</span> :</h2>
+
+         <p>The Harbour, Boscastle, Cornwall.</p>
+         <p>PL35 0HD, United Kingdom.</p>
+      
+         <iframe
+
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5055.512361346666!2d-4.699486206054816!3d50.687350633844865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486b843ce6837ab1%3A0x287199d5d4d4a5c4!2sBoscastle%20Harbour!5e0!3m2!1spt-BR!2sbr!4v1683758294400!5m2!1spt-BR!2sbr"
+         width="400"
+         height="250"
+         frameborder="0"
+         style="border:0;"
+         allowfullscreen=""
+         aria-hidden="false"
+         tabindex="0"
+         onmousemove="mapaZoom()"
+         onmouseout="mapaNormal()"
+         id='mapa'>
+
+         </iframe>
+      </div>
+   </div>
+
+
+   <hr>
+
+   <footer>
+
+      <div class="container">
+         <a href="https://br.pinterest.com/" target="_blank">
+            <img class="tm-social p-30" src="https://cdn-icons-png.flaticon.com/512/174/174863.png" alt="Logo do Pinterest">
+         </a>
+         
+         <a href="https://www.tumblr.com/" target="_blank">
+            <img class="tm-social p-30" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tumblr_icon.png" alt="Logo do Tumblr">
+         </a>
+         
+         <a href="https://open.spotify.com/" target="_blank">
+            <img class="tm-social p-30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="Logo do Spotify">
+         </a>
+         
+      </div>
+
+      <p class="center  tituloscor">
+         Made just for fun &copy
+      </p> 
+   </footer>
+
+   <script src="./assets/js/script.js"></script>
+   
+</body>
+</html>

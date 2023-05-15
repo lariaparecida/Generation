@@ -1,0 +1,76 @@
+/*Estilos da página index.html*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.fonttype {
+   font-family: 'Times New Roman', Times, serif;
+}
+.body {
+   background-color: #999999;
+}
+
+.center {
+   text-align: center;
+}
+
+.tituloscor {
+   color: antiquewhite;
+}
+.justify{
+   text-align: justify;
+}
+
+.container {
+   color: antiquewhite;
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+}  
+
+#menu li {
+   display: inline;
+   padding: 15px;
+   
+}
+
+#menu li a {
+   text-decoration: none;
+   color: #860202;
+   font-size: 20px;
+}
+
+#menu li a:hover {
+   color: antiquewhite;
+}
+
+.p-30 {
+   padding: 30px;
+}
+
+.br-50 {
+   border-radius: 50%;
+}
+
+.wh-300{
+   width: 300px;
+   height: 300px;
+
+}
+
+.tm-social {
+   width: 50px;
+   height: 50px;
+}
+
+.mb-50{
+   margin-bottom: 50px;
+}
+
+
+
+/*Estilos da página contato.html*/
+
+.ml-50 {
+   margin-left: 50px;
+}
